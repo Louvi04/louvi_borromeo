@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Louvi Borromeo</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head> 
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">   </a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+	  
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">PROJECTS</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+		 <a href="#education" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()"></a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a href="https://www.facebook.com/louvimarananborromeo" class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/llouvi.m/" class="icon-link w3-text-sand w3-hover-text-amber" href="#instagram" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a href="https://twitter.com/louvi_maranan?t=Mcuub7MzygDYk-1i6m71lQ&s=09" class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a href="https://github.com/Louvi04" class="icon-link w3-text-sand w3-hover-text-amber" href="#github" target="_blank">
+             <i data-feather="github"></i>
+          </a>
+        </div>
+		
+		
+		
+		<!--MORE ABOUT ME-->
+		<button a class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" type="button" onclick="alert('Follow me on my Social Media Accounts!')">More About Me</button>
+		</a> 
+      </section>
+
+      <!--CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+	  
+	  
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">      </a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#projects" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">PROJECTS</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+		   <a href="#education" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()"></a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+		
+		
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"Knowing yourself is the beginning of all wisdom."</p>
+            <h1>Louvi Borromeo</h2>
+            <h2>IT Student</h3>
+            <p></p>
+          </div>
+
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+             Hi! I'm Louvi, a 20 yr old BSIT student at Batangas State University. 
+			 I chose Bachelor of Science in Information Technology because i want to be an IT professional so that i can create powerful programs that could make me famous in the world of Information Technology HAHAHA char. I decided to study this field in college because i've had an interest in it ever since high school. I also want to improve my understanding in Computer Networking and Software Development.
+            </p>
+          </div>
+
+
+          <!--PROJECTS-->
+          <div id="projects" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PROJECTS</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+			
+			
+              <!--PROJECTS SECTION-->
+              <h3 class="w3-border-amber">CML Beach Resort and Waterpark</h3>
+              <div class="">
+                <h4></h4>
+                <p>2019 - 2020</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>The CML Beach Resort and Waterpark in Nonong Casto Lemery, Batangas is my first HTML project. Normally, a website is where visitors look for information about the resort first. It serves as the primary medium for interacting with guests as well. I create this website so that thevisitors who have never been at the  resort can virtually experience the ambiance and get to know the place. It displays information about the resort's background, current attractions, special features, dining options, rooms, etc.</li>
+                </ul>
+              </div>
+			  
+			  
+              <div class="">
+                <h3>Enrollment Management System</h3>
+                <p>2019 - 2020 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>When i was in grade 12 i developed Enrollment Management System for Alitagtag Senior High School using Visual Basic and MySql. It provides certain features that fulfill the task of improving enrollment efficiency. These features that make the decision to adopt an effective solution for admissions a really smart one. Besides that, it makes it a lot easier for the school to keep an eye on the students and quickly access their academic records.</li>
+                </ul>
+              </div>
+            </div>
+			
+
+            <!---EDUCATION SECTION-->
+            <div id="education" class="w3-container w3-margin-top-2 w3-cursive">
+			<h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY EDUCATION</h3>
+			  <br>
+				<h4>Batangas State University - The National Engineering University</h4>
+                <p>August 2020 - Present </p>
+                <h4>Alitagtag Senior High School</h4>
+                <p>Batch 2019 - 2020 </p>
+                <h4>Taal National High School</h4>
+                <p>Batch 2017 - 2018 </p>	
+            </div>
+		  
+<br>
+<br>
+              <!--TECHNICAL SKILLS-->
+              <h3>Technical skills</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I have experience with MS Office tools</li>
+                  <li>Basic knowledge in Web Development</li>
+                </ul>
+            </div>
+
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h4 class="w3-border-amber">MY HOBBIES AND INTERESTS</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I have a variety of hobbies. I love playing volleyball, watching kdrama, reading books and spending time with my friends. ^^ </li>
+                </ul>
+            </div>
+
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Ma. Louvi Kaye Borromeo</p>
+              <p>Phone number: +639812231331</p>
+              <p>E-mail: louviborromeo04@gmail.com</p>
+            </div>
+          </div>
+
+
+        <!--FOOTER-->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2022 - Louvi Borromeo</p>
+           <p class="w3-small"></p>
+          
+        <!-- End footer -->
+        </footer>
+
+
+       
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
